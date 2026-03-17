@@ -1,7 +1,10 @@
 # Modular Retrieval-Augmented Generalization for Human Activity Recognition
 
 ## Overview
-This repository contains the implementation of **MoRA**, a novel **Retrieval-Augmented Module** designed for Inertial Measurement Unit (IMU)-based Human Activity Recognition (HAR). MoRA addresses critical challenges in IMU-based HAR, such as limited training samples and static knowledge utilization, by introducing a flexible, plug-and-play module that enhances recognition performance while maintaining inference efficiency. Our work has been submitted to **ICME 2026**, and the full codebase will be released after the anonymization period.
+This repository contains the implementation of **MoRA**, a novel **Retrieval-Augmented Module** designed for Inertial Measurement Unit (IMU)-based Human Activity Recognition (HAR). MoRA addresses critical challenges in IMU-based HAR, such as limited training samples and static knowledge utilization, by introducing a flexible, plug-and-play module that enhances recognition performance while maintaining inference efficiency. Our paper has been accepted by **ICME 2026**.
+
+## Workflow
+[![Workflow](workflow.png)]
 
 ## Features
 - **Modular Design**: MoRA can be seamlessly integrated into any existing IMU-based HAR model.
@@ -44,21 +47,17 @@ Our experiments demonstrate that MoRA consistently improves the performance of e
 - **Flexible Integration**: Works with various model architectures (e.g., CNNs, RNNs, Transformers).
 - **Efficient Inference**: Minimal computational overhead compared to baseline models.
 
-<!--
 ## Citation
-If you find our work useful, please cite our ICME 2026 submission (details to be updated post-anonymization):
+If you find our work useful, please cite our ICME 2026 paper:
 
 ```bibtex
-@article{mora2026,
-  title={Modular Retrieval-Augmented Generalization for Motion Time Series},
-  author={Anonymous Authors},
-  journal={ICME Conference on Artificial Intelligence},
-  year={2026},
-  note={Under review}
+@inproceedings{liao2026mora,
+  title        = {Modular Retrieval-Augmented Generalization for Human Activity Recognition},
+  author       = {Peng Liao and Shangsong Liang and Lin Chen and Peijia Zheng},
+  booktitle    = {Proceedings of the IEEE International Conference on Multimedia \& Expo (ICME)},
+  year         = {2026}
 }
 ```
--->
 
 ## License
 This project will be licensed under the MIT License upon full code release.
-
