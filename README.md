@@ -4,7 +4,7 @@
 This repository contains the implementation of **MoRA**, a novel **Retrieval-Augmented Module** designed for Inertial Measurement Unit (IMU)-based Human Activity Recognition (HAR). MoRA addresses critical challenges in IMU-based HAR, such as limited training samples and static knowledge utilization, by introducing a flexible, plug-and-play module that enhances recognition performance while maintaining inference efficiency. Our paper has been accepted by **ICME 2026**.
 
 ## Workflow
-[![Workflow](workflow.png)]
+![Workflow](workflow.png)
 
 ## Features
 - **Modular Design**: MoRA can be seamlessly integrated into any existing IMU-based HAR model.
@@ -54,7 +54,7 @@ If you find our work useful, please cite our ICME 2026 paper:
 @inproceedings{liao2026mora,
   title        = {Modular Retrieval-Augmented Generalization for Human Activity Recognition},
   author       = {Peng Liao and Shangsong Liang and Lin Chen and Peijia Zheng},
-  booktitle    = {Proceedings of the IEEE International Conference on Multimedia \& Expo (ICME)},
+  booktitle    = {Proceedings of the IEEE International Conference on Multimedia and Expo (ICME)},
   year         = {2026}
 }
 ```
