@@ -13,11 +13,11 @@ This repository contains the implementation of **MoRA**, a novel **Retrieval-Aug
 - **Inference Efficiency**: Maintains low computational overhead, making it suitable for large-scale deployment.
 
 ## Installation
-The full codebase will be released after the ICME 2026 anonymization period. Below is a placeholder for the installation instructions, which will be updated once the code is public.
+We provide a Conda environment configuration file to ensure reproducibility. You can set up the environment by running the following commands:
 
 ```bash
-# Installation instructions will be provided post-anonymization.
-# Expected dependencies: Python 3.8+, PyTorch, NumPy, etc.
+# Create the conda environment from the provided .yml file
+conda env create -f environment.yml
 ```
 
 ## Usage
